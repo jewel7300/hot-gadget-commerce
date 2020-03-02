@@ -24,3 +24,6 @@ body p{
 .carousel-indicators li {
 	background-color: red;
 }
+.slider-left-padding{
+    padding-left:105px;
+}
