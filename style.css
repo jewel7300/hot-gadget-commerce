@@ -1,0 +1,20 @@
+nav{
+    margin-top: 25px;
+    font-weight: bold;
+}
+.container{
+    margin-bottom: 100px;
+}
+.carousel-inner img{
+    width: 100%;
+}
+body p{
+    color:dimgray;
+}
+.buy-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
