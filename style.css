@@ -18,3 +18,9 @@ body p{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.bg-orange{
+   background-color: gold;
+}
+.carousel-indicators li {
+	background-color: red;
+}
