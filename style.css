@@ -1,12 +1,9 @@
-nav{
-    margin-top: 25px;
-    font-weight: bold;
-}
-.container{
-    margin-bottom: 70px;
+
+.navbar{
+    font-weight: bold;    
 }
 .carousel-inner img{
-    width: 100%;
+    width: 90%;
 }
 body p{
     color:dimgray;
@@ -17,13 +14,82 @@ body p{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    font-weight: bold;
 }
-.bg-orange{
-   background-color: gold;
+.buy-button:after{
+content:'\f061';
+font-family: fontawesome;
+padding-left: 10px;
 }
 .carousel-indicators li {
-	background-color:#FFBC24;
+    background-color:#FFBC24;
+    width: 40px;
+	height: 7px;
+}
+.carousel-inner img {
+	width: 100%;
 }
 .slider-left-padding{
-    padding-left:105px;
+    padding:105px 0 0 105px;
+}
+.see-all{
+    text-align: right;
+    color: #FFBC24;
+    font-weight: bold;
+    cursor: pointer;
+}
+#smartphone-laptop-heading{
+    margin-bottom: 25px;
+}
+#smartphone, #laptop, #catagories{
+    margin-top: 50px;
+}
+.card-footer {
+    text-align: center;
+    background-color:white;
+    border-top: none;
+}
+#smartphone, #laptop h5{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+#slider img{
+    padding-left: 50px;
+}
+.col-md-6 img{
+    width: 100%;
+}
+#bag {
+	vertical-align: center;
+	align-content: center;
+    padding: 41px 77px 23px 69px;
+}
+#beauty {
+	vertical-align: center;
+	align-content: center;
+	padding: 25px 56px 0px 48px;
+}
+#shoe {
+	vertical-align: center;
+	align-content: center;
+	padding: 25px 56px 0px 48px;
+	margin: 29px 5px 5px 16px;
+}
+.card-body h2 {
+	text-align:center;
+}
+#catagories h2{
+    text-align: center;
+    text-decoration: underline #FFBC24;
+    margin: 100px 0 50px 0;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    margin-top: 110px;
 }
