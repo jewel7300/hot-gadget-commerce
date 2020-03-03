@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="menubar">
         <div class="row">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#home">
@@ -17,7 +17,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class=" d-flex justify-content-end">
+            <div class="col-x-12 d-flex justify-content-end">
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="slider">
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide bg-orange" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -73,7 +73,9 @@
                      <div class="col-md-5 d-flex align-items-center">
                         <div class="slider-left-padding">
                           <h1>Wireless Speaker</h1>
+                          <br>
                           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                          <br>
                           <button class="buy-button">BUY NOW</button>
                         </div>
                      </div>
@@ -90,7 +92,9 @@
                   <div class="col-md-5 d-flex align-items-center">
                       <div class="slider-left-padding">
                         <h1>JBL Speaker</h1>
+                        <br>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                        <br>
                         <button class="buy-button">BUY NOW</button>
                       </div>
                   </div>
@@ -114,9 +118,9 @@
       </div></div>
     </div>
 
-    <div class="container" id="smartphone">         
+    <div class="container" id="smartphone">              
         <div class="row">
-          <h2>Smartphone</h2>
+          <h2>Smartphone</h2>          
           <div class="card-deck">
             <div class="card">
               <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
@@ -130,28 +134,101 @@
               </div>
             </div>
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Samsung Galaxy Note 10</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5>$799</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <button class="buy-button">BUY NOW</button>
               </div>
             </div>
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Redmi K30</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5>$699</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <button class="buy-button">BUY NOW</button>
               </div>
             </div>
           </div>          
         </div>
     </div>
+
+    <div class="container" id="laptop">              
+      <div class="row">
+        <h2>Laptop</h2>          
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asus VivoBook</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$999</h5>
+            </div>
+            <div class="card-footer">
+              <button class="buy-button">BUY NOW</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade 15</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$2799</h5>
+            </div>
+            <div class="card-footer">
+              <button class="buy-button">BUY NOW</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Xioami Mi Notebook Pro</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h5>$999</h5>
+            </div>
+            <div class="card-footer">
+              <button class="buy-button">BUY NOW</button>
+            </div>
+          </div>
+        </div>          
+      </div>
+  </div>
+
+  <div class="container catagories area">
+  <h2>Catagories</h2>
+  <div class="row">
+          <div class="col-sm-3 area">
+              <div class="card" id="bag" style="width: 15rem; height: 15rem;">
+              <img src="images/Categories/bag.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2>Bag</h2>
+              </div>
+              </div>
+          </div>
+          <div class="col-sm-3">                    
+                      <div class="card" id="bag" style="width: 15rem; height: 15rem;">
+                    <img src="images/Categories/bag.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2>Bag</h2>
+                    </div>
+           </div>       
+                    
+          </div>
+      <!--  <div class="col-md-6">
+         <div>
+           <img src="images/Categories/pale-order.png" alt="">
+         </div>
+       </div>     -->                       
+  </div>
+  </div>
+  
+
 
    
 

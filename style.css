@@ -17,13 +17,49 @@ body p{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-}
-.bg-orange{
-   background-color: gold;
+    font-weight: bold;
 }
 .carousel-indicators li {
 	background-color:#FFBC24;
 }
+.carousel-inner img {
+	width: 100%;
+	padding-bottom: 80px;
+}
 .slider-left-padding{
     padding-left:105px;
+}
+.see-all{
+    text-align: right;
+    color: blueviolet;
+}
+
+.card-footer {
+    text-align: center;
+    background-color:white;
+    border-top: none;
+}
+#smartphone, #laptop h5{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+#slider img{
+    padding-left: 50px;
+}
+
+.area{
+border: 2px solid red;
+}
+#bag {
+	vertical-align: center;
+	align-content: center;
+    padding: 41px 77px 23px 69px;
+    float: left;
+    /*margin: 212px 0px 0px 0px;
+    
 }
